@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 :root {
-  --primary-color: #f2c96b;
+  --primary-color: #22211e;
   --primary-color-dark: #fee7bb;
   --secondary-color: #fee1a6;
   --text-dark: #1f2937;
@@ -89,9 +89,27 @@ ul li a:hover {
 }
 
 .chapter {
+  margin-left: 20px;
   margin-top: 100px;
 }
 
 .container {
   margin-top: 40px;
+}
+
+.book {
+  display: flex;
+}
+
+.image {
+  display: flex;
+  place-items: center;
+  margin-left: 20px;
+}
+
+img {
+  margin-top: 100px;
+  width: 400px;
+  height: 600px;
+  border-radius: 0%;
 }
