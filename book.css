@@ -114,6 +114,10 @@ img {
   border-radius: 4%;
 }
 
+audio {
+  width: 500px;
+}
+
 @media (width < 750px) {
   nav .checkbox {
     display: block;
@@ -136,7 +140,7 @@ img {
     font-size: 1.25rem;
   }
   .chapter {
-    margin-top: 150px;
+    margin-top: 80px;
   }
   .book {
     display: inline;
@@ -145,5 +149,8 @@ img {
     height: 450px;
     width: 450px;
     border-radius: 40%;
+  }
+  audio {
+    width: 300px;
   }
 }
