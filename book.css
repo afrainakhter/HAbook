@@ -116,6 +116,16 @@ img {
 
 audio {
   width: 500px;
+  margin-bottom: 20px;
+}
+
+.download-btn {
+  background-color: rgb(109, 6, 109);
+  color: white;
+  padding: 0.5rem 0.5rem;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
 }
 
 @media (width < 750px) {
