@@ -291,12 +291,6 @@ footer {
   margin: auto;
 }
 
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .social-links a {
   width: 30px;
   /* Adjust the size of social media icons */
@@ -307,8 +301,9 @@ footer {
 }
 
 .footerbody p {
-  margin: 0;
-  color: white;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(9, 8, 8);
 }
 
 @media (width < 750px) {
