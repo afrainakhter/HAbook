@@ -184,44 +184,10 @@ ul li a:hover {
   place-items: center;
 }
 
-img {
+.image img {
   width: 400px;
   height: 400px;
   border-radius: 30%;
-}
-
-.alloffers {
-  width: 300px;
-  height: 300px;
-  display: flex;
-  border-radius: 10px;
-}
-
-.allreview {
-  width: 300px;
-  height: 300px;
-  display: flex;
-  border-radius: 10px;
-}
-
-.offers {
-  margin-right: 100px;
-  padding: 10px;
-}
-
-.reviewer-info img {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-}
-
-.review {
-  margin: 50px;
-}
-
-.cakes {
-  border: 2px solid var(--primary-color);
-  padding: 30px;
 }
 
 .download-btn {
@@ -304,6 +270,15 @@ footer {
   font-size: 20px;
   text-align: center;
   color: rgb(9, 8, 8);
+}
+
+iframe {
+  margin-left: 170px;
+  margin-bottom: 20px;
+}
+
+.dua img {
+  margin-left: 100px;
 }
 
 @media (width < 750px) {
