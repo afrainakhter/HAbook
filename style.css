@@ -273,12 +273,18 @@ footer {
 }
 
 iframe {
-  margin-left: 170px;
+  margin-left: 50px;
   margin-bottom: 20px;
 }
 
 .dua img {
   margin-left: 100px;
+}
+
+.dualist p,
+h4 {
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 @media (width < 750px) {
